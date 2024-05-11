@@ -1,8 +1,8 @@
 package com.aymenbouazizi.springbootsuperheroes.superheroes.config;
 
-import com.aymenbouazizi.springbootsuperheroes.superheroes.antiHero.jwt.AuthEntryPointJwt;
-import com.aymenbouazizi.springbootsuperheroes.superheroes.antiHero.jwt.AuthTokenFilter;
-import com.aymenbouazizi.springbootsuperheroes.superheroes.antiHero.jwt.UserDetailsServiceImpl;
+import com.aymenbouazizi.springbootsuperheroes.superheroes.antihero.jwt.AuthEntryPointJwt;
+import com.aymenbouazizi.springbootsuperheroes.superheroes.antihero.jwt.AuthTokenFilter;
+import com.aymenbouazizi.springbootsuperheroes.superheroes.antihero.jwt.UserDetailsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
